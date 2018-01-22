@@ -21,7 +21,14 @@ class ViewController: UIViewController {
     }
 
     @IBAction func PressMeButtonPressed(_ sender: Any) {
+//code block
+        let codeblock = "Hello World"
+        print (codeblock)
+        
     }
     
+    @IBAction func NowPressMeButtonPressed(_ sender: Any) {
+        print ("Hello Universe")
+    }
 }
 
